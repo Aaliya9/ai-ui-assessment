@@ -62,7 +62,7 @@ Built with:
 - /app/page.tsx – Main UI component
 - /app/api/ai-response/route.ts – API handler for OpenAI
 - /styles – Tailwind base
-- .env.local – API key (OPENAI_API_KEY)
+- .env.local – API key (OPENAI_API_KEY) 
 
 API Logic (route.ts):
 
