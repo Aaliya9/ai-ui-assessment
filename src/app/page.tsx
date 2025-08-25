@@ -161,9 +161,9 @@ export default function Home() {
             value={model}
             onChange={(e) => setModel(e.target.value)}
           >
-            <option>GPT-4</option>
-            <option>GPT-3.5</option>
-            <option>Custom</option>
+            <option value="gpt-4o-mini">gpt-4o-mini</option>
+            <option value="gpt-4">GPT-4</option>
+            <option value="gpt-3.5-turbo">GPT-3.5</option>
           </select>
         </div>
 
