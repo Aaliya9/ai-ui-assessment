@@ -5,11 +5,9 @@
   "homepage": "https://aaliya9.github.io/ai-ui-assessment",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
