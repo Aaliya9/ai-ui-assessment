@@ -1,15 +1,8 @@
-// const isProd = process.env.NODE_ENV === 'production';
-
-// module.exports = {
-//   assetPrefix: isProd ? '/ai-ui-assessment/' : '',
-//   images: {
-//     unoptimized: true,
-//   },
-//   output: 'export',
-// };
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Remove "output: 'export'"
+  reactStrictMode: true,
+  // other config options here (optional)
 };
 
 module.exports = nextConfig;
